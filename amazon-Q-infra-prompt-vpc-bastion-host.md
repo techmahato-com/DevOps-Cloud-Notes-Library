@@ -3,8 +3,8 @@
 Use the prompt below with Amazon Q to generate a complete, production-ready Terraform infrastructure.
 
 👉 Copy & Paste Prompt
-Create a complete AWS three-tier VPC infrastructure using Terraform with the following requirements:
 
+Create a complete AWS three-tier VPC infrastructure using Terraform with the following requirements:
 Project Structure:
 - Modular Terraform code with separate modules for VPC, bastion host, and VPC flow logs
 - Environment-specific tfvars files (dev, staging, prod)
