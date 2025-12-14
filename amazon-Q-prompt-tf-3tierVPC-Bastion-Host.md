@@ -1,10 +1,24 @@
-📌 Amazon Q – Infrastructure Generation Prompt
+# Amazon Q – Terraform Infrastructure Generation Prompt
 
-Use the prompt below with Amazon Q to generate a complete, production-ready Terraform infrastructure.
+This repository contains **one single prompt** you can copy–paste into **Amazon Q Developer**  
+to generate a **complete, production-ready AWS three-tier VPC infrastructure using Terraform**.
 
-👉 Copy & Paste Prompt
+---
 
+## 📌 How to Use
+
+1. Open **Amazon Q (Developer mode)**
+2. Copy the prompt below
+3. Paste it into Amazon Q
+4. Amazon Q will generate **all Terraform files, modules, scripts, and README**
+
+---
+
+## 👉 Copy & Paste This Prompt into Amazon Q
+
+```text
 Create a complete AWS three-tier VPC infrastructure using Terraform with the following requirements:
+
 Project Structure:
 - Modular Terraform code with separate modules for VPC, bastion host, and VPC flow logs
 - Environment-specific tfvars files (dev, staging, prod)
@@ -92,3 +106,28 @@ File Structure:
 
 Create all files with proper Terraform best practices, error handling, and documentation.
 Include README.md with setup instructions and usage examples.
+```
+
+---
+
+## ✅ Result
+
+Using this **single prompt**, Amazon Q will generate:
+- Modular Terraform code
+- Multi-environment setup
+- Secure AWS networking foundation
+- Deployment automation scripts
+- Production-ready README
+
+---
+
+## ⭐ Recommended Use Cases
+- GitHub infrastructure templates
+- Client projects
+- Teaching & workshops
+- DevOps portfolios
+- YouTube & blog demos
+
+---
+
+Happy Building 🚀
